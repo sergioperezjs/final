@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | El Hogar De Bibi</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+          crossorigin="anonymous">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-content">
+            <h1 class="logo">El Hogar De Bibi</h1>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li> 
+                    <li><a href="quienes.html">Quienes somos</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contactanos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+
+            <div class="cart-icon">
+                🛒 Carrito (<span id="cart-count">0</span>)
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <img src="img/logo.png" alt="Logo de El Hogar De Bibi" class="hero-image">
+            
+            <div class="hero-text">
+                <h2>Descubre lo extraordinario</h2>
+                <p>Encuentra productos artesanales y únicos que no verás en ningún otro lugar.</p>
+                <a href="productos.html" class="cta-button">Ver Productos</a>
+            </div>
+        </section>
+
+        <section id="quienes" class="quieneson-section">
+            <h2>Conoce de nosotros</h2>
+            <div class="quieneson-text">
+                <p>El Hogar de Bibi es un emprendimiento dedicado a la venta de productos para el hogar, ofreciendo artículos como sábanas, cortinas, cobijas, cojines, toallas y otros elementos de decoración que brindan comodidad, estilo y calidez a los espacios. La marca se enfoca en ofrecer productos de excelente calidad, con diseños modernos y funcionales que se adapten a distintos gustos y presupuestos.</p>
+            </div>
+        </section>
+ 
+        <section id="productos" class="products-section">
+            <h2>NUESTROS PRODUCTOS DESTACADOS</h2>
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="img/cortinas1.png" alt="cortinas">
+                    <h3>Sabana</h3>
+                    <p>Un producto de calidad que te brinda el mejor descanso. Perfecto para tu bienestar.</p>
+                    <span class="price">$80.000</span>
+                    <button class="add-to-cart-btn" data-id="1">Añadir al Carrito</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/tendidos1.png" alt="Set de tendidos">
+                    <h3>Set de tendidos</h3>
+                    <p>Hechos con los mejores materiales. Ideales para darle estilo y decoración a tu cama.</p>
+                    <span class="price">$120.000</span>
+                    <button class="add-to-cart-btn" data-id="2">Añadir al Carrito</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/cobijas1.png" alt="cobijas">
+                    <h3>Cortinas</h3>
+                    <p>Diseños modernos y elegantes. Garantiza el ambiente perfecto en tu habitación.</p>
+                    <span class="price">$100.000</span>
+                    <button class="add-to-cart-btn" data-id="3">Añadir al Carrito</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="galeria" class="gallery-section">
+            <h2>TODOS LOS PRODUCTOS</h2>
+            <p>Explora nuestros productos y elige tu favorito en el color que más te guste.</p>
+            
+            <div class="gallery-grid-container">
+                <div class="gallery-grid">
+                    <img src="img/chanclas.png" alt="Chanclas para tu uso diario">
+                    <img src="img/chanclas.png" alt="Chanclas para tu uso diario">
+                    <img src="img/chanclas2.png" alt="Chanclas para tu uso diario">
+                    <img src="img/cobijas.png" alt="Cobijas">
+                    <img src="img/cobijas1.png" alt="Cobijas 1">
+                    <img src="img/cortinas.png" alt="Cortinas">
+                    <img src="img/cortinas1.png" alt="Cortinas 1">
+                    <img src="img/cortina3.png" alt="Cortinas 3">
+                    <img src="img/tendidos.png" alt="Tendido">
+                    <img src="img/tendidos1.png" alt="Tendido 1">
+                    <img src="img/tendidos2.png" alt="Tendido 2">
+                    <img src="img/l1.png" alt="Producto L1">
+                    <img src="img/col.png" alt="Producto Colores">
+                    <img src="img/L.png" alt="Producto L">
+                    <img src="img/la.png" alt="Producto La">
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <h2>Contáctos</h2>
+            
+            <p class="contact-prompt">¡Escríbenos directamente para un servicio más rápido!</p>
+            <div class="contact-options">
+                <a href="https://wa.me/XXXXXXXXXXX" target="_blank" class="cta-button whatsapp-button">Preguntar por WhatsApp 💬</a>
+            </div>
+            
+            <p class="contact-prompt">Mira nuestra página de Instagram y síguenos: El Hogar De Bibi </p>
+            <div class="contact-options">
+                <a href="https://www.instagram.com/bibi.hogar/" target="_blank" class="cta-button instagram-button">Instagram 💬</a>
+            </div>
+            
+            <h3>¿Tienes preguntas? Contáctanos</h3>
+            <form class="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="cta-button">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="contact-options">
+                <p>Síguenos en las redes:</p>
+                <a href="https://www.instagram.com/bibi.hogar/" target="_blank" class="cta-button instagram-button">Instagram 📸</a>
+                <a href="https://wa.me/XXXXXXXXXXX" target="_blank" class="cta-button whatsapp-button">WhatsApp 💬</a> 
+            </div>
+            <p>&copy; El Hogar de Bibi. Mejorar el bienestar y confort de cada hogar, ofreciendo productos prácticos y estéticamente agradables, acompañados de una experiencia de compra sencilla, confiable y cercana.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+            crossorigin="anonymous">
+    </script>
+</body>
+</html>
